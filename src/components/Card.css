@@ -1,0 +1,66 @@
+.card {
+  width: 100%;
+  height: 100%;
+  -moz-box-shadow: 2px 6px 20px -11px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 2px 6px 20px -11px rgba(0, 0, 0, 0.8);
+  -ms-box-shadow: 2px 6px 20px -11px rgba(0, 0, 0, 0.8);
+  box-shadow: 2px 6px 20px -11px rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 5px 35px 20px;
+}
+@media only screen and (max-width : 1200px) {
+  .card {
+    padding: 5px 25px 20px;
+  }
+}
+.cardName {
+  padding: 0 0;
+  font-size: 25px;
+  margin-bottom: 15px;
+  margin-top: -10px;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+.imageContainer img{
+  max-width: 280px;
+  max-height: 280px;
+  width: 100%;
+  height: auto;
+}
+.defaultImage,
+.hoverImage {
+  display: block;
+  margin: 0 auto;
+}
+
+.hoverImage {
+  display: none;
+}
+
+.imageContainer:hover .hoverImage {
+  display: block;
+}
+
+.imageContainer:hover .defaultImage {
+  display: none;
+}
+.cardTypes > div{
+  display: inline-block;
+  margin: 0 5px;
+}
+.cardInfo{
+  margin: 15px 0 15px;
+  font-size:12px;
+}
+.cardData p{
+  margin: 0;
+}
+.flavor{
+  box-sizing: border-box;
+  padding: 15px 0;
+  text-align: left;
+  border-top :1px solid #ccc;
+  border-bottom :1px solid #ccc;
+}

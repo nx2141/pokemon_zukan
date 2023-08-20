@@ -1,0 +1,20 @@
+nav {
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 0;
+    font-weight: normal;
+}
+nav span {
+    display: block;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px;
+    margin: 0 auto;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 2px;
+}
